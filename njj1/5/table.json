@@ -1,0 +1,71 @@
+{
+    "code": 0,
+    "msg": "",
+    "count": 50,
+    "data": [
+        {
+            "type": "checkbox",
+            "eqid": 18656,
+            "eqname": "许昌电气",
+            "eqaddree": "21648",
+            "name": "上海",
+            "date": "2020-08-01 12:12:20"
+        },
+        {
+            "type": "checkbox",
+            "eqid": 25746,
+            "eqname": "江苏电气",
+            "eqaddree": "21524g",
+            "name": "许昌",
+            "date": "2020-08-01 12:12:21"
+        },
+        {
+            "type": "checkbox",
+            "eqid": 21947,
+            "eqname": "上海电气",
+            "eqaddree": "hqfUO9274",
+            "name": "江苏",
+            "date": "2020-08-01 12:12:22"
+        },
+        {
+            "type": "checkbox",
+            "eqid": 44738,
+            "eqname": "北京电器",
+            "eqaddree": "172848yuew",
+            "name": "衡州",
+            "date": "2020-08-01 12:12:23"
+        },
+        {
+            "type": "checkbox",
+            "eqid": 3750,
+            "eqname": "北京电器",
+            "eqaddree": "172848yuew",
+            "name": "衡州",
+            "date": "2020-08-01 12:12:24"
+        },
+        {
+            "type": "checkbox",
+            "eqid": 823609,
+            "eqname": "北京电器",
+            "eqaddree": "172848yuew",
+            "name": "洛阳",
+            "date": "2020-08-01 12:12:25"
+        },
+        {
+            "type": "checkbox",
+            "eqid": 684587,
+            "eqname": "漯河电器",
+            "eqaddree": "172848yuew",
+            "name": "漯河",
+            "date": "2020-08-02 12:12:23"
+        },
+        {
+            "type": "checkbox",
+            "eqid": 8326587,
+            "eqname": "南阳电器",
+            "eqaddree": "172848yuew",
+            "name": "南阳",
+            "date": "2020-08-02 12:12:23"
+        }
+    ]
+}

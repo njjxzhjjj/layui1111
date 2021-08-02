@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="layui-v2.5.6/layui/layui.js"></script>
+    <link rel="stylesheet" href="layui-v2.5.6/layui/css/layui.css">
+
+    <style>
+        div{
+            padding-top: 2px;
+        }
+        #div1{
+            padding-left: 100px;
+        }
+        #div2{
+            padding-left: 600px;
+            
+        }
+        #button{
+            margin-left: 100px;
+        }
+        #submin1{
+            margin-left: 600px;
+        }
+    </style>
+</head>
+<body>
+  <form class="layui-form" action="" onsubmit="return false">
+    <div>
+        <p style="font-size: 2em;text-align: center;"><b>求职信息登录表</b></p>
+        <div>
+            <button type="button" class="layui-btn layui-disabled layui-circle" style="background-color: slategrey;" id="button">上传简历附件</button>
+
+            <div class="layui-inline" id="div2" >
+                <label class="layui-form-label ">填表日期</label>
+                <div class="layui-input-inline">
+                  <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input" value="2020-08-01">
+                </div>
+              </div>
+        </div>
+        
+      <div>
+            <div class="layui-inline layui-form-item" id="div1">
+                <label class="layui-form-label">姓名</label>
+                <div class="layui-input-inline">
+                  <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input" placeholder="请输入您的姓名">
+                </div>
+              </div>
+
+              <div class="layui-inline layui-form-item">
+                <label class="layui-form-label">单行选择框</label>
+                <div class="layui-input-inline">
+                  <select>
+                    <option value=""></option>
+                    <option value="0">男</option>
+                    <option value="1">女</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="layui-inline layui-form-item">
+                <label class="layui-form-label">民族</label>
+                <div class="layui-input-inline">
+                  <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请输入您的民族">
+                </div>
+              </div>
+            
+              <div class="layui-inline layui-form-item">
+                <label class="layui-form-label">籍贯</label>
+                <div class="layui-input-inline">
+                  <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请输入您的籍贯">
+                </div>
+              </div>
+      </div>
+
+      <div>
+        <div class="layui-inline layui-form-item" id="div1">
+            <label class="layui-form-label">出生日期</label>
+            <div class="layui-input-inline">
+              <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input" placeholder="请输入您的出生日期">
+            </div>
+          </div>
+          <div class="layui-inline layui-form-item">
+            <label class="layui-form-label">毕业院校</label>
+            <div class="layui-input-inline">
+              <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请输入您的毕业院校">
+            </div>
+          </div>
+
+          <div class="layui-inline layui-form-item">
+            <label class="layui-form-label">所学专业</label>
+            <div class="layui-input-inline">
+              <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请输入您的所学专业">
+            </div>
+          </div>
+
+          <div class="layui-inline layui-form-item">
+                <label class="layui-form-label">学历</label>
+                <div class="layui-input-inline">
+                  <select>
+                    <option value=""></option>
+                    <option value="0">大专</option>
+                    <option value="1">本科</option>
+                  </select>
+                </div>
+              </div>
+      </div>
+
+      <div>
+        <div class="layui-inline layui-form-item" id="div1">
+            <label class="layui-form-label">专业成绩</label>
+            <div class="layui-input-inline">
+              <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input" placeholder="请输入专业成绩排名">
+            </div>
+          </div>
+          <div class="layui-inline layui-form-item">
+            <label class="layui-form-label">毕业时间</label>
+            <div class="layui-input-inline">
+              <select>
+                <option value=""></option>
+              </select>
+            </div>
+          </div>
+
+          <div class="layui-inline layui-form-item">
+            <label class="layui-form-label">婚姻状况</label>
+            <div class="layui-input-inline">
+              <select>
+                <option value=""></option>
+                <option value="0">已婚</option>
+                <option value="1">未婚</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="layui-inline layui-form-item">
+            <label class="layui-form-label">联系方式</label>
+            <div class="layui-input-inline">
+              <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请输入您的电话号码">
+            </div>
+          </div>
+      </div>
+
+      <div>
+        <div class="layui-inline layui-form-item" id="div1">
+          <label class="layui-form-label">求职意向</label>
+          <div class="layui-input-inline">
+            <select>
+              <option value=""></option>
+              <option value="0">项目主管</option>
+              <option value="1">技术主管</option>
+            </select>
+          </div>
+        </div>
+
+          <div class="layui-inline">
+            <label class="layui-form-label">到岗时间</label>
+            <div class="layui-input-inline">
+              <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请选择到岗时间">
+            </div>
+          </div>
+
+          <div class="layui-inline">
+            <label class="layui-form-label">期望薪资</label>
+            <div class="layui-input-inline">
+              <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请输入期望薪资">
+            </div>
+          </div>
+
+          <div class="layui-inline">
+            <label class="layui-form-label">发展方向</label>
+            <div class="layui-input-inline">
+              <input type="text" name="email" lay-verify="email" autocomplete="off" class="layui-input" placeholder="请输入发展方向">
+            </div>
+          </div>
+      </div>
+
+      <div>
+        <div class="layui-inline" id="div1">
+            <label class="layui-form-label">居住地址</label>
+            <div class="layui-input-inline">
+              <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input"placeholder="请输入居住地址">
+            </div>
+          </div>
+          
+          <div class="layui-inline layui-form-item">
+            <label class="layui-form-label">求职意向</label>
+            <div class="layui-input-inline">
+              <select>
+                <option value=""></option>
+                <option value="0">项目主管</option>
+                <option value="1">技术主管</option>
+              </select>
+            </div>
+          </div>
+
+        <div class="layui-inline layui-form-item">
+          <div class="layui-input-inline">
+            <select>
+              <option value=""></option>
+              <option value="0">java</option>
+              <option value="1">python</option>
+              <option value="2">layui</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+    <button type="button" class="layui-btn layui-disabled layui-circle" style="background-color: slategrey;" id="button">填写工作经历</button>
+    </div>
+
+    <div class="layui-form-item layui-form-text" id="div1">
+        <label class="layui-form-label">普通文本域</label>
+        <div class="layui-input-block">
+          <textarea placeholder="请输入内容" class="layui-textarea"></textarea>
+        </div>
+      </div>
+
+      <div class="layui-form-item">
+        <div class="layui-input-block">
+          <button type="submit" class="layui-btn" lay-submit="" lay-filter="regBtn" id="submit1">提交</button>
+        </div>
+      </div>
+</div>
+</form>
+
+<script>
+  layui.use(['layer','form'], function(args){
+    var layer = layui.layer;
+    var form = layui.form;
+  }); 
+</script>
+</body>
+</html>
